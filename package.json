@@ -1,7 +1,7 @@
 {
-  "name": "swagger-faker-server",
+  "name": "mock-server",
   "version": "1.0.0",
-  "description": "Swagger server with Faker integration from CLI",
+  "description": "Swagger mock server",
   "keywords": [
     "swagger",
     "rest",
@@ -14,20 +14,19 @@
     "server",
     "host"
   ],
-  "homepage": "https://github.com/Avenida/swagger-faker-server",
-  "bugs": "https://github.com/Avenida/swagger-faker-server/issues",
+  "homepage": "https://github.com/kevinrosenberg21/swagger-mock-server.git",
+  "bugs": "https://github.com/kevinrosenberg21/swagger-mock-server/issues",
   "license": "Apache-2.0",
-  "author": "Facundo Viale",
+  "author": "Kevin Rosenberg, basado en proyecto original de Facundo Viale",
   "contributors": [
-    "Fernando Pasik <fernando.pasik@avenida.com>",
-    "Facundo Viale <facundo.viale@avenida.com>"
+    "Kevin Rosenberg <kevinrosenberg21@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Avenida/swagger-faker-server.git"
+    "url": "git@github.com:kevinrosenberg21/swagger-mock-server.git"
   },
   "bin": {
-    "swagger-faker-server": "bin/swagger-faker-server.js"
+    "mock-server": "bin/mock-server.js"
   },
   "main": "server.js",
   "dependencies": {
